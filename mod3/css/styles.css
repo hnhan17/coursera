@@ -1,0 +1,68 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+}
+#header-nav{
+	background-color: #ffd1dc;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+#home-tiles .item-text{
+	background: #ffd1dc;
+	padding: 10px;
+	height: 1000px;
+}
+#home-tiles .item-text p {
+	font-size: 14px;
+	font-weight: bold;
+}
+.navbar-brand h1{
+	color: #5573ce;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none; 
+}
+#nav-list{
+	margin-top: 15px;
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header, .icon-bar{
+	border: 2px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+@media (max-width: 767px) {
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	.menu-item--description
+}
+@media (min-width: 1200px)
+{}
+@media (min-width: 992px) and(max-width: 1199px){}
